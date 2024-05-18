@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Title</title>
+    <!-- Link to Bootstrap 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Add custom styles for a nicer design -->
+    <style>
+      body {
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        padding-top: 100px;
+      }
+
+      .alert {
+        background-color: #4caf50;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .alert-heading {
+        font-size: 24px;
+      }
+
+      .alert p {
+        font-size: 18px;
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="alert" role="alert">
+            <h4 class="alert-heading">Thank You!</h4>
+            <p>
+              Congratulations! Your electronic signature has been securely
+              recorded on the document using DocuSign. Thank you for your prompt
+              action. Your commitment to this process greatly contributes to the
+              efficiency of our workflow.
+            </p>
+            <hr />
+            <p class="mb-0">
+              If you have any further questions or need assistance, please don't
+              hesitate to reach out. Your cooperation is greatly appreciated.
+            </p>
+            <!-- Add a button to navigate to the desired URL -->
+            <a
+              href="https://signature.ngf-team2.com/"
+              class="btn btn-primary btn-lg mt-3"
+              >Go to Signup</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript to handle the button click event (optional) -->
+    <!-- <script>
+      // Get a reference to the button element
+      var signupButton = document.getElementById("signupButton");
+
+      // Add a click event listener to the button
+      signupButton.addEventListener("click", function () {
+        // Navigate to the desired URL when the button is clicked
+        window.location.href = "http://localhost:3000/signup";
+      });
+    </script> -->
+  </body>
+</html>
